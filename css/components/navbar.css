@@ -7,6 +7,12 @@
   flex-grow: 0;
 }
 
-.navbar .navbar-brand img {
+.navbar .navbar-brand * {
+  height: 20px;
   width: 40px;
+}
+
+.navbar .navbar-brand *:hover {
+  height: 30px;
+  font-size: 40px;
 }
