@@ -14,16 +14,23 @@
   font-weight: bold;
 }
 
+.banner h2 {
+  margin: 0;
+  color: beige;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  opacity: .9;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .banner p {
+  margin-top: 5px;
   font-size: 20px;
   color: beige;
-  opacity: .8;
+  opacity: .85;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-#banner-btn {
-  color: rgba(0,0,0,0.7);
-  border: rgba(0,0,0,0.1);
-  border-style: ridge;
-  box-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.spacer {
+  height: 60px;
 }
