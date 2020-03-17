@@ -10,31 +10,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
         
     </head>
-    <body>	
+    <body>
       <header id="header">
-
-        <!-- Navbar -->
         <div class="navbar navbar-expand-sm d-flex justify-content-between">
-          <div class="ml-3">
+            <div class="ml-3">
             <a class="navbar-brand" href="https://www.facebook.com/marcos.cannabrava"><img src="img/facebook-f-brands.svg" /></a>
             <a class="navbar-brand" href="https://www.instagram.com/marcoscannabrava/"><img src="img/instagram-brands.svg" /></a>
             <a class="navbar-brand" href="https://twitter.com/mpcannabrava"><img src="img/twitter-brands.svg" /></a>
             <a class="navbar-brand" href="https://www.linkedin.com/in/marcos-cannabrava/"><img src="img/linkedin-in-brands.svg" /></a>
-            <a class="navbar-brand ml-4" href="/" style="color: black;">project demos</a>
-          </div>
-          <img class="avatar mr-3" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="img/head.jpg" />
+            <a class="navbar-brand ml-4" href="#demos" style="color: black;">project demos</a>
+            </div>
+            <img class="avatar mr-3" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="img/head.jpg" />
         </div>
-        <!-- End Navbar -->
-
-      </header><!-- #header -->
+      </header>
         
       <!-- Banner -->
       <div class="banner">
@@ -47,6 +37,21 @@
           <p style="position: absolute; bottom: 0; right: 16px; font-size: 14px;">São Conrado - Rio de Janeiro</p>
       </div>
       <!-- End Banner -->
+
+      <!-- Demos -->
+      <div class="my-4 mx-4 video-grid" id="demos">
+        <div class="demo-header">
+					<h2>Project Demos</h2>
+					<p><img height=60 src="img/saverz-v2.png" /></p>
+					<p>COOK IT      <img class="ml-4" height=60 src="img/kitchen.png" /></p>
+					<p>Snake Game   <img class="ml-4" height=60 src="img/snake.png" /></p>
+        </div>
+        <video autoplay muted loop playsinline alt="Demo video" class="demo-video"><source src="videos/saverz.mp4" type="video/mp4"></video>
+        <video autoplay muted loop playsinline alt="Demo video" class="demo-video"><source src="videos/cookit.mp4" type="video/mp4"></video>
+        <video autoplay muted loop playsinline alt="Demo video" class="demo-video"><source src="videos/snake.mp4" type="video/mp4"></video>
+      </div>
+      <!-- End Demos -->
+
 
       <!-- Quotes -->
       <div id="accordion">
@@ -118,7 +123,12 @@
       </section>
           
 
-        
+        <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="index.js"></script>  -->
+    
     </body>
 </html>
 
