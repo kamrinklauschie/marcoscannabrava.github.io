@@ -1,36 +1,44 @@
+.navbar-marcos {
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgba(65,88,150,1) 0%, rgba(65,118,150,1) 50%, rgba(65,150,148,1) 100%);
+  flex-grow: 0;
+}
+
+.navbar-marcos .navbar-brand img {
+  width: 40px;
+}
+
 .banner {
-  position: relative;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../img/img-sc_background.jpg); 
+  background-image: url(../../img/Surf.jpg);
   background-size: cover;
   background-position: center;
-  padding: 5rem;
+  padding: 220px;
 }
 
 .banner h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+/*  color: #C1E5F6;*/
+  text-transform: uppercase;
+  word-wrap: break-word;
+/*  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;*/
+  background: linear-gradient(90deg, rgba(65,88,150,1) 0%, rgba(65,118,150,1) 50%, rgba(65,150,148,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
   margin: 0;
-  color: beige;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-  font-size: 32px;
-  font-weight: bold;
 }
 
 .banner h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  /*text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;*/
+  background: linear-gradient(90deg, rgba(65,88,150,1) 0%, rgba(65,118,150,1) 50%, rgba(65,150,148,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
   margin: 0;
-  color: beige;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-  opacity: .9;
-  font-size: 24px;
-  font-weight: bold;
-}
 
-.banner p {
-  margin-top: 5px;
-  font-size: 20px;
-  color: beige;
-  opacity: .85;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-.spacer {
-  height: 60px;
 }
